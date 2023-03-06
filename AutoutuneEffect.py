@@ -1,3 +1,9 @@
+# Genera un fichero en extension .opus para enviar notas de voz por whatsapp con el efecto de AutoTune
+
+# 1. Generamos la grabación
+# 2. Abrimos Whatsapp Web
+# 3. Enviamos el fichero generado (whatsapp lo reconocerá como una nota de voz)
+
 import pyaudio
 from pydub import AudioSegment
 from pydub.effects import autotune
